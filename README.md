@@ -41,3 +41,19 @@ sorted/
 └── no_extension/
     └── Makefile
 ```
+
+## Testing
+
+The `test_files/` directory contains 20 sample files with various extensions and nested subdirectories.
+
+Run the script on test files:
+
+```bash
+python sort_files.py test_files -o test_output
+```
+
+Clean up after testing:
+
+```bash
+rm -rf test_output
+```
